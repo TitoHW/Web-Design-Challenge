@@ -1,0 +1,138 @@
+@font-face{
+    font-family: MontserratB;
+    src: url("font/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: MontserratL;
+    src: url("font/Montserrat-Light.ttf") format("truetype");
+}
+
+.body{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: unset;
+    background-color: white;
+}
+
+.container{
+    font-family: "MontserratB";
+    width: auto;
+    height: auto;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-right: 50px;
+    background-color: rgb(26, 100, 143);
+}
+
+.logo{
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.nav-bar{
+    margin-top: -50px;
+    margin-bottom: 100px;
+    margin-right: 130px;
+}
+
+.nav-bar ul li{
+    float: right;
+    margin-right: 10px;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    margin: 20px;
+}
+
+.nav-bar ul li :focus-within::after{
+    content: '';
+    display: block;
+    border-bottom: 3px white solid;
+    margin: auto;  
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 8px;
+}
+
+.nav-bar li a{
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "MontserratB";
+    color: white;
+}
+
+.wllper{
+    width: 660px;
+    height: 470px;
+    margin-top: 20px;
+    margin-left: 600px;
+    position: absolute;
+}
+
+.moto{
+    size: 20px;
+    margin-top: 120px;
+    color: white;
+}
+
+.prgrh{
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+    z-index: 1;
+    position: relative;
+}
+
+.btn1{
+    font-family: "MontserratB";
+    border-radius: 0;
+    background-color: rgb(22, 53, 71);
+    color: white;
+    border: 2px solid wheat;
+    height: 40px;
+    width: 200px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.btn1:hover{
+    background-color: rgb(26, 100, 143);
+    border: 2px solid rgb(26, 100, 143);
+    transition: .3s;
+}
+
+.btn2{
+    font-family: "MontserratB";
+    border-radius: 1;
+    background-color: rgb(26, 100, 143);
+    color: white;
+    border: 2px solid wheat;
+    height: 40px;
+    width: 200px;
+}
+
+.btn2:hover{
+    transition: .3s;
+    background-color: rgb(22, 53, 71);
+    border: 2px solid rgb(22, 53, 71);
+}
+
+.def{
+    margin-top: 100px;
+    color: white;
+}
+
+.def-text{
+    font-family: "MontserratL";
+    color: white;
+    top: 70px;
+    font-size: 15px;
+    padding-bottom: 25px;
+}
+
